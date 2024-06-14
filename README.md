@@ -92,8 +92,11 @@ visible dan invisible widget adalah 2 bagian widget terpisah dimana widget visib
     - Column
         
         column digunakan untuk menyusun widget secara vertical atau urut kebawah yang diatur menggunakan properti mainAxisAlignment yang membutuhkan Widget statis [MainAxisAlignment.center](http://MainAxisAlignment.center) untuk mengatur widget ke arah vertical atau ke bawah. untuk menyusun widget secara horizontal atau ke samping atau urut ke samping yang diatur menggunakan properti crossAxis yang membutuhkan widget status CrossAxis.center.
-      ![Capture](https://github.com/appworkspaceRM/visible-and-invisible-widget/assets/135511281/8a9eb26b-49d2-41c0-86d7-50346114fbe6)
-      ![Capture2](https://github.com/appworkspaceRM/visible-and-invisible-widget/assets/135511281/72ad1fdc-cd09-43e2-a795-bc6d897a094f)
+      
+![Capture](https://github.com/appworkspaceRM/visible-and-invisible-widget/assets/135511281/8a9eb26b-49d2-41c0-86d7-50346114fbe6)
+
+![Capture2](https://github.com/appworkspaceRM/visible-and-invisible-widget/assets/135511281/72ad1fdc-cd09-43e2-a795-bc6d897a094f)
+
         ```dart
         import 'package:flutter/material.dart';
         
