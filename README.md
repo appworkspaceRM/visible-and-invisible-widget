@@ -97,7 +97,7 @@ visible dan invisible widget adalah 2 bagian widget terpisah dimana widget visib
 
 ![Capture2](https://github.com/appworkspaceRM/visible-and-invisible-widget/assets/135511281/72ad1fdc-cd09-43e2-a795-bc6d897a094f)
 
-        ```dart
+```dart
         import 'package:flutter/material.dart';
         
         void main(){
@@ -131,7 +131,8 @@ visible dan invisible widget adalah 2 bagian widget terpisah dimana widget visib
         	}
         }
         ```
-        
+
+
     - Row
         
         Row digunakan untuk menyusun widget secara horizontal atau urut kesamping yang diatur menggunakan properti mainAxisAlignment yang membutuhkan Widget statis [MainAxisAlignment.center](http://MainAxisAlignment.center) untuk mengatur widget ke arah horizontal atau ke samping. untuk menyusun widget secara horizontal atau ke bawah atau urut ke bawah yang diatur menggunakan properti crossAxis yang membutuhkan widget status CrossAxis.center.
