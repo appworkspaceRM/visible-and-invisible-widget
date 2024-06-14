@@ -96,129 +96,124 @@ visible dan invisible widget adalah 2 bagian widget terpisah dimana widget visib
 ![Capture](https://github.com/appworkspaceRM/visible-and-invisible-widget/assets/135511281/8a9eb26b-49d2-41c0-86d7-50346114fbe6)
 
 ![Capture2](https://github.com/appworkspaceRM/visible-and-invisible-widget/assets/135511281/72ad1fdc-cd09-43e2-a795-bc6d897a094f)
-
-        ```dart
-        import 'package:flutter/material.dart';
+```dart
+import 'package:flutter/material.dart';
         
-        void main(){
-        	runApp(MyApp());
-        }
+void main(){
+    runApp(MyApp());
+}
         
-        class MyApp extends StatelessWidger {
-        	MyApp({super.key});
+class MyApp extends StatelessWidger {
+    MyApp({super.key});
         	
-        	
-        	@override
-        	Widget build(BuildContext context){
-        		return MaterialApp(
-        			home: Scaffold(
-        				appBar: AppBar(
-        					title: Text(
-        						'Hello World',
-        					),
-        				),
-        				body: Row(
-        					mainAxisAlignment: MainAxisAligment.center,
-        					crossAxisAlignment: CrossAxisAlignment.start,
-        					children: [
-        						Text(
-        							'Hello World',
-        						),
-        					],
-        				)
-        			),
-        		);
-        	}
-        }
-        ```
+    @override
+    Widget build(BuildContext context){
+    return MaterialApp(
+        home: Scaffold(
+            appBar: AppBar(
+                title: Text(
+                    'Hello World',
+                ),
+            ),
+            body: Row(
+                mainAxisAlignment: MainAxisAligment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                    Text(
+                        'Hello World',
+                    ),
+                ],
+            )
+        ),
+    );}
+}
+```
 
 
-    - Row
+- Row
         
-        Row digunakan untuk menyusun widget secara horizontal atau urut kesamping yang diatur menggunakan properti mainAxisAlignment yang membutuhkan Widget statis [MainAxisAlignment.center](http://MainAxisAlignment.center) untuk mengatur widget ke arah horizontal atau ke samping. untuk menyusun widget secara horizontal atau ke bawah atau urut ke bawah yang diatur menggunakan properti crossAxis yang membutuhkan widget status CrossAxis.center.
+Row digunakan untuk menyusun widget secara horizontal atau urut kesamping yang diatur menggunakan properti mainAxisAlignment yang membutuhkan Widget statis [MainAxisAlignment.center](http://MainAxisAlignment.center) untuk mengatur widget ke arah horizontal atau ke samping. untuk menyusun widget secara horizontal atau ke bawah atau urut ke bawah yang diatur menggunakan properti crossAxis yang membutuhkan widget status CrossAxis.center.
         
-        ![Capture3](https://github.com/appworkspaceRM/visible-and-invisible-widget/assets/135511281/cf5d5ee4-1e13-4734-bd06-bddccbe31814)
+![Capture3](https://github.com/appworkspaceRM/visible-and-invisible-widget/assets/135511281/cf5d5ee4-1e13-4734-bd06-bddccbe31814)
 
         
-        ```dart
-        import 'package:flutter/material.dart';
-        
-        void main(){
-        	runApp(MyApp());
-        }
-        
-        class MyApp extends StatelessWidger {
-        	MyApp({super.key});
-        	
-        	
-        	@override
-        	Widget build(BuildContext context){
-        		return MaterialApp(
-        			home: Scaffold(
-        				appBar: AppBar(
-        					title: Text(
-        						'Hello World',
-        					),
-        				),
-        				body: Row(
-        					mainAxisAlignment: MainAxisAligment.center,
-        					crossAxisAlignment: CrossAxisAlignment.start,
-        					children: [
-        						Text(
-        							'Hello World',
-        						),
-        					],
-        				)
-        			),
-        		);
-        	}
-        }
-        ```
-        
-    - Stack
-        
-        stack widget atau widget tumpukan digunakan untuk menyusun widget kedepan atau tersusun menjorok keluar layar sehingga terjadi tumpukan seakan - akan meniban dari widget yang paling bawah atau lebar. dan bisa menentukan posisi widget terhadaap relative stack.
-        
-        ![Capture4](https://github.com/appworkspaceRM/visible-and-invisible-widget/assets/135511281/325a5107-ca33-4c40-86ce-7c48620f3bd0)
+```dart
+import 'package:flutter/material.dart';
 
+void main(){
+    runApp(MyApp());
+}
         
-        ```dart
-        import 'package:flutter/material.dart';
+class MyApp extends StatelessWidger {
+    MyApp({super.key});
+
+    @override
+    Widget build(BuildContext context){
+        return MaterialApp(
+            home: Scaffold(
+                appBar: AppBar(
+                title: Text(
+                    'Hello World',
+                    ),
+                ),
+                body: Row(
+                    mainAxisAlignment: MainAxisAligment.center,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                        Text(
+                            'Hello World',
+                        ),
+                    ],
+                )
+            ),
+        );
+    }
+}
+```
         
-        void main(){
-        	runApp(MyApp());
-        }
+- Stack
         
-        class MyApp extends StatelessWidger {
-        	MyApp({super.key});
+  stack widget atau widget tumpukan digunakan untuk menyusun widget kedepan atau tersusun menjorok keluar layar sehingga terjadi tumpukan seakan - akan meniban dari widget yang paling bawah atau lebar. dan bisa menentukan posisi widget terhadaap relative stack.
+        
+  ![Capture4](https://github.com/appworkspaceRM/visible-and-invisible-widget/assets/135511281/325a5107-ca33-4c40-86ce-7c48620f3bd0)
+
+
+```dart
+import 'package:flutter/material.dart';
+        
+void main(){
+    runApp(MyApp());
+}
+        
+class MyApp extends StatelessWidger {
+    MyApp({super.key});
         	
-        	
-        	@override
-        	Widget build(BuildContext context){
-        		return MaterialApp(
-        			home: Scaffold(
-        				appBar: AppBar(
-        					title: Text(
-        						'Hello World',
-        					),
-        				),
-        				body: Stack(
-        					children: [
-        						Text(  // tumpukan ke 1
-        							'Hello World',
-        						),
-        						Text(  // tumpukan ke 2
-        							'Hello World',
-        						),
-        						Text(  // tumpukan ke 3
-        							'Hello World',
-        						),
-        					],
-        				)
-        			),
-        		);
-        	}
-        }
+    @override
+    Widget build(BuildContext context){
+        return MaterialApp(
+            home: Scaffold(
+                appBar: AppBar(
+                    title: Text(
+                        'Hello World',
+                    ),
+                ),
+                body: Stack(
+                    children: [
+                        Text(  // tumpukan ke 1
+                            'Hello World',
+                        ),
+                        Text(  // tumpukan ke 2
+                            'Hello World',
+                        ),
+                        Text(  // tumpukan ke 3
+                            'Hello World',
+                        ),
+                    ],
+                ),
+            ),
+        );
+    }
+}
         ```
 
 - Visible
