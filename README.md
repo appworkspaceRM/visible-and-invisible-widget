@@ -96,6 +96,7 @@ visible dan invisible widget adalah 2 bagian widget terpisah dimana widget visib
 ![Capture](https://github.com/appworkspaceRM/visible-and-invisible-widget/assets/135511281/8a9eb26b-49d2-41c0-86d7-50346114fbe6)
 
 ![Capture2](https://github.com/appworkspaceRM/visible-and-invisible-widget/assets/135511281/72ad1fdc-cd09-43e2-a795-bc6d897a094f)
+
 ```dart
 import 'package:flutter/material.dart';
         
