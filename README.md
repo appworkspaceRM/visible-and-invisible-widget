@@ -218,7 +218,7 @@ class MyApp extends StatelessWidger {
 
 - Visible
     
-    ```dart
+```dart
     import 'package:flutter/material.dart'
     
     void main(){
@@ -243,11 +243,11 @@ class MyApp extends StatelessWidger {
     		);
     	}
     }
-    ```
+```
     
 - Invisible
-    
-    ```dart
+
+```dart
     import 'package:flutter/material.dart'
     
     void main(){
@@ -282,7 +282,7 @@ class MyApp extends StatelessWidger {
     		);
     	}
     }
-    ```
+```
     
     - Column
         
@@ -292,7 +292,7 @@ class MyApp extends StatelessWidger {
         
         ![Capture2.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/abcb1cf6-3200-4445-9cf9-e3c071b63f38/6ad37551-84a4-4c47-bf7c-8bda4b912abe/Capture2.png)
         
-        ```dart
+```dart
         import 'package:flutter/material.dart';
         
         void main(){
@@ -325,7 +325,7 @@ class MyApp extends StatelessWidger {
         		);
         	}
         }
-        ```
+```
         
     - Row
         
@@ -333,7 +333,7 @@ class MyApp extends StatelessWidger {
         
         ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/abcb1cf6-3200-4445-9cf9-e3c071b63f38/d3efd65a-0068-4d94-9f38-3fdde2d6d776/Untitled.png)
         
-        ```dart
+```dart
         import 'package:flutter/material.dart';
         
         void main(){
@@ -366,7 +366,7 @@ class MyApp extends StatelessWidger {
         		);
         	}
         }
-        ```
+```
         
     - Stack
         
@@ -374,7 +374,7 @@ class MyApp extends StatelessWidger {
         
         ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/abcb1cf6-3200-4445-9cf9-e3c071b63f38/9469d22a-c285-42fe-bf5e-41ce551bc19e/Untitled.png)
         
-        ```dart
+```dart
         import 'package:flutter/material.dart';
         
         void main(){
@@ -411,7 +411,7 @@ class MyApp extends StatelessWidger {
         		);
         	}
         }
-        ```
+```
         
 
 ```dart
